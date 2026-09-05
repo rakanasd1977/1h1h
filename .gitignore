@@ -1,0 +1,36 @@
+node_modules/
+dist/
+server/data/
+.env
+.env.local
+*.log
+*.err
+.DS_Store
+e2e/test-results/
+e2e/playwright-report/
+e2e/.last-run.json
+
+# صور ولقطات الشاشة ومخرجات الفحص
+logs/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.ico
+*.bmp
+
+# رفعات المستخدمين (تُولَّد وقت التشغيل)
+server/uploads/
+
+# أنماط env إضافية — مع الإبقاء على النسخة المجرّدة القابلة للرفع
+.env.*
+!.env.example
+
+# أدوات التطوير والنظام
+.vscode/
+.idea/
+Thumbs.db
+*.swp
+*.tsbuildinfo
+coverage/
