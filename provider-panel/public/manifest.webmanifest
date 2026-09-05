@@ -1,0 +1,14 @@
+{
+  "name": "سوق الرافدين - لوحة مزود الخدمة",
+  "short_name": "المزود",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#b91c1c",
+  "dir": "rtl",
+  "lang": "ar",
+  "icons": [
+    { "src": "/icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "/icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ]
+}
